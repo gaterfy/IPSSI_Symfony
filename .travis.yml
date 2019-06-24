@@ -4,5 +4,6 @@ php:
 before_install: false
 install: true
 before_script: true
-script: true
+script:
+  - phpunit tests
 after_script: true
