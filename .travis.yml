@@ -2,7 +2,8 @@ langage: 'php'
 php:
   - '7.3'
 before_install: false
-install: true
+install:
+  - composer install
 before_script: true
 script:
   - phpunit tests
