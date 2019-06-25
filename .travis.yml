@@ -1,8 +1,9 @@
 langage: 'php'
 php:
-  - '7.1'
+  - '7.3'
 before_install: false
 install:
+  - composer require friendsofphp/php-cs-fixer --dev
   - composer install
 before_script: true
 script:
